@@ -6,16 +6,16 @@ class Libsigrok < Formula
   license "GPL-3.0-or-later"
   head "git://sigrok.org/libsigrok"
 
-  depends_on "pkg-config" => :build
   depends_on "autoconf" => :build
   depends_on "autoconf-archive" => :build
   depends_on "automake" => :build
-  depends_on "glib"
-  depends_on "libtool"
-  depends_on "glibmm"
+  depends_on "pkg-config" => :build
   depends_on "doxygen"
-  depends_on "libzip"
+  depends_on "glib"
+  depends_on "glibmm"
+  depends_on "libtool"
   depends_on "libusb"
+  depends_on "libzip"
   depends_on "libftdi" => :optional
   depends_on "libserialport" => :optional
 
