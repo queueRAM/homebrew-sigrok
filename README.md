@@ -1,4 +1,4 @@
-# QueueRAM Sigrok
+# sigrok Homebrew
 
 ## How do I install these formulae?
 `brew install queueram/sigrok/<formula>`
